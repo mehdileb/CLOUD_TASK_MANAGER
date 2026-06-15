@@ -10,3 +10,8 @@ instance.zip
 .env
 __pycache__/
 instance/
+instance.zip
+*.zip
+.env
+__pycache__/
+instance/
