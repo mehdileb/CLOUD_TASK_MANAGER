@@ -5,3 +5,8 @@ __pycache__/
 instance/
 tasks.db
 instance.zip
+instance.zip
+*.zip
+.env
+__pycache__/
+instance/
