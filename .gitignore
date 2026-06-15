@@ -3,4 +3,5 @@ venv/
 __pycache__/
 *.pyc
 instance/
-tasks.dbinstance.zip
+tasks.db
+instance.zip

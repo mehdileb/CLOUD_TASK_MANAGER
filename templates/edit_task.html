@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Edit Task</h1>
+
+<form method="POST" class="form-card">
+    <label>Title</label>
+    <input type="text" name="title" value="{{ task.title }}" required>
+
+    <label>Description</label>
+    <textarea name="description">{{ task.description }}</textarea>
+
+    <label>Status</label>
+    <select name="status">
+        <option value="pending" {% if task.status == "pending" %}selected{% endif %}>Pending</option>
+        <option value="done" {% if task.status == "done" %}selected{% endif %}>Done</option>
+    </select>
+
+    <button type="submit">Save Changes</button>
+</form>
+{% endblock %}
